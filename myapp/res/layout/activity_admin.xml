@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@drawable/back1">
+
+    <!-- Admin Header Section -->
+    <Button
+        android:id="@+id/tvAdminHeader"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Admin Panel"
+        android:textSize="22sp"
+        android:textColor="#FFFFFF"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp"
+        android:background="#6200EE"
+        android:elevation="4dp"/>
+
+    <!-- User Payments ListView -->
+    <ListView
+        android:id="@+id/lvUserPayments"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="3"
+        android:background="@drawable/border"
+        android:paddingTop="16dp"
+        android:divider="@color/black"
+        android:dividerHeight="2dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:padding="10dp"
+        android:clipToPadding="false"
+        android:scrollingCache="true"/>
+</LinearLayout>

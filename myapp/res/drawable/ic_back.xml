@@ -1,0 +1,9 @@
+<!-- res/drawable/ic_back.xml -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:tint="@android:color/white">
+    <path
+        android:fillColor="@android:color/white"
+        android:pathData="M12 0L0 24h24L12 0z"/>
+</vector>

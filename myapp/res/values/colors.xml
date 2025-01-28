@@ -1,0 +1,25 @@
+<resources>
+    <!-- App Primary and Secondary Colors -->
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="primary_dark">#212121</color>
+    <color name="button_background">#3F51B5</color>
+    <color name="button_success">#4CAF50</color>
+    <color name="button_danger">#F44336</color>
+    <color name="primary_text">#212121</color>
+    <color name="highlight">#1976D2</color>
+
+    <color name="primary">#216873</color>
+    <color name="primary_button_color">#1D5F67</color>
+    <color name="secondary">#4CAF50</color>
+    <color name="secondary_button_color">#357A38</color>
+    <color name="light_gray">#F5F5F5</color> <!-- Light gray -->
+    <color name="dark_gray">#333333</color> <!-- Dark gray -->
+     <color name="blue">#1B2F94</color>
+    <!-- Accent and Functional Colors -->
+    <color name="green">#4CAF50</color> <!-- Green -->
+    <color name="green_dark">#388E3C</color> <!-- Dark Green -->
+    <color name="gray_border">#CCCCCC</color> <!-- Light gray for borders -->
+    <color name="gray_border_dark">#555555</color> <!-- Dark gray for borders -->
+</resources>
+

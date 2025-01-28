@@ -1,0 +1,21 @@
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guidelineBottom"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintGuidePercent="1.0"/>
+
+    <androidx.appcompat.widget.AppCompatBottomNavigationView
+        android:id="@+id/bottom_nav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/nav_item"
+        app:itemTextAppearanceActive="@style/BottomNavActiveTextStyle"
+        app:itemTextAppearanceInactive="@style/BottomNavInactiveTextStyle"
+        app:itemIconTint="@color/primary_dark"
+        app:itemBackground="@drawable/nav_item"
+        app:menu="@menu/bottom_nav_menu" />
+</androidx.constraintlayout.widget.ConstraintLayout>

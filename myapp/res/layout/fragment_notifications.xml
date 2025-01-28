@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@drawable/back1"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="16dp"
+        android:layout_gravity="center">
+
+        <TextView
+        android:id="@+id/tv_fullname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Full Name"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="#216873"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:layout_marginTop="16dp"/>
+
+        <!-- Profile Section -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+            android:padding="16dp"
+            android:elevation="4dp"
+            android:layout_marginBottom="20dp"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+
+
+            <TextView
+                android:id="@+id/tv_gender"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gender"
+                android:textSize="15sp"
+                android:textColor="#333333"
+                android:padding="10dp" />
+
+            <TextView
+                android:id="@+id/tv_email"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email"
+                android:textSize="15sp"
+                android:textColor="#0000FF"
+                android:padding="10dp" />
+
+        </LinearLayout>
+
+        <!-- Divider -->
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@android:color/darker_gray"
+            android:layout_marginVertical="20dp"
+            android:textAlignment="center"/>
+
+        <!-- Paid Policies Section -->
+        <TextView
+            android:id="@+id/tvPolicyHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Paid Policies"
+            android:textStyle="bold"
+            android:textSize="22sp"
+            android:textColor="#216873"
+            android:paddingBottom="8dp"
+
+            android:layout_marginTop="10dp"
+            android:textAlignment="center"/>
+
+        <LinearLayout
+            android:id="@+id/llPolicyDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#FFFFFF"
+        android:padding="16dp"
+        android:elevation="4dp"
+        android:layout_marginBottom="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+            >
+
+        <!-- Example Policy Details (Add dynamically in code) -->
+        <!-- <TextView android:text="Policy 1: 10000 BDT" /> -->
+        <!-- <TextView android:text="Policy 2: 15000 BDT" /> -->
+
+    </LinearLayout>
+
+</LinearLayout>
+    </ScrollView>

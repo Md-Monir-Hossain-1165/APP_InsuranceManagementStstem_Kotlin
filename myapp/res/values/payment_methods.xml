@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Array for payment methods -->
+    <string-array name="payment_methods">
+        <item>Select Payment Method</item>
+        <item>Debit/Credit Card</item>
+        <item>Net Banking</item>
+        <item>Mobile Banking</item>
+    </string-array>
+
+    <!-- Array for policy options -->
+    <string-array name="policy_options">
+        <item>Health</item>
+        <item>Life</item>
+        <item>Car</item>
+        <item>Home</item>
+    </string-array>
+
+    <!-- Array for mobile banking providers -->
+    <string-array name="mobile_banking_providers">
+        <item>BKash</item>
+        <item>Nagad</item>
+    </string-array>
+</resources>
