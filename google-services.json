@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "870187308094",
+    "project_id": "policypilot-4e2c7",
+    "storage_bucket": "policypilot-4e2c7.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:870187308094:android:d44990a54cd323672b6d6f",
+        "android_client_info": {
+          "package_name": "com.example.myapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkOkQfVSqft07dtOdqaRD8jixrWvFhPMw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
